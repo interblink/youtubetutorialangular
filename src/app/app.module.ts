@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserComponent } from './user/user.component';
-import { Prueba1Component } from './prueba1/prueba1.component';
+
 
 
 @NgModule({
@@ -22,9 +22,7 @@ import { Prueba1Component } from './prueba1/prueba1.component';
     InterfaceEnumeracionesycastingComponent,
     AtributosEventosNgmodelComponent,
     LoginComponent,
-    UserComponent,
-    Prueba1Component
-
+    UserComponent
 
 
   ],
