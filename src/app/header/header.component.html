@@ -1,0 +1,16 @@
+<p>header works!</p>
+ <!-- Example change the name with botton -->
+<div> {{name}}
+<!-- <button (click)="name='Paola'">Change</button>  -->
+ <button (click)="function_change()">Change</button><!-- change with function -->
+
+ <!-- Example sum + 1 -->
+<div> {{contador}} 
+<button (click)="sum()">Sum + 1</button>
+
+<!-- Example for iterate with array of header components-->
+<ul>
+    <li *ngFor="let numbers of arr">{{numbers}}</li>
+</ul>
+
+<button (click)="add()">Add number random</button>

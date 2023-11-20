@@ -1,0 +1,9 @@
+:host{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.left, .right{
+    flex: 1;
+}

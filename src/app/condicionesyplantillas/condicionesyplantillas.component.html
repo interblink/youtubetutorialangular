@@ -1,0 +1,35 @@
+<p>condiciones y plantillas works!</p>
+<!-- forma sin contenedor
+
+<button *ngIf="isLogged == false">Iniciar seccion</button>
+<button *ngIf="isLogged == false">Registrarse</button>
+
+-->
+
+<!-- forma con contenedor -->
+<!-- <ng-container *ngIf="isLogged == false"> 
+    <button>Iniciar seccion</button>
+    <button>Registrarse</button>
+</ng-container>
+-->
+
+<!-- forma con contenedor container y contenedor template 
+<ng-container *ngIf="isLogged == false; else logeado"> 
+    <button (click)="isLogged = true">Iniciar seccion</button>
+    <button>Registrarse</button>
+</ng-container>
+
+<ng-template #logeado> 
+<button>Ir a Menu</button>
+<button>Ir a Admin</button>
+<button>Ir a Usuario</button>
+<button (click)="isLogged = false"> Cerrar Seccion</button>
+</ng-template>
+-->
+
+<!-- para que aparezca un boton llamado subir de nivel que solo accedan los de nivel 10 -->
+<!--
+<div> {{nivel}}</div>
+<button  (click)="nivel = nivel + 1 ">Subir de nivel</button>
+<button *ngIf="nivel == 10">Precio casa VIP</button>
+-->

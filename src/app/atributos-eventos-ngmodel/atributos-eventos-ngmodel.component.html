@@ -1,0 +1,27 @@
+<p>atributos-eventos-ngmodel works!</p>
+ <h1>Tu nombre es {{titulo}}</h1>
+<br>
+
+
+<button [disabled]="desactivado">Titulo</button>
+
+<button type="button" (click)="desactivado = !desactivado">Prender</button> <!-- = asigancion y ! negacion -->
+
+
+
+<!--
+
+
+<h1>Tu nombre es {{seleccionar}}</h1>
+<select name="" id="" [(ngModel)]="seleccionar">
+<option value="Toyota">Toyota</option>
+<option value="Hyundai">Hyundai</option>
+<option value="Renault">Renault</option>
+</select>
+-->
+
+<!--
+[] = atributo
+() = evento
+[()] = atributo + evento
+-->
